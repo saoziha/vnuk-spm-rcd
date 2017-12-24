@@ -1,0 +1,37 @@
+Courses
+    course[idCourse]
+
+Deadlines
+    course[idCourse]
+        deadline[idDeadline]
+
+LectureNotes
+    course[idCourse]
+        lectureNote
+
+Announcement
+     course[idCourse]
+        announcement[idAnnouncement]
+
+Teachers
+    teacher[idUser]
+        idTeacher
+        name
+        listOfIdCourses
+            idCourse-1
+            idCourse-2
+Students
+    student[idUser]
+        idStudent
+        name
+        listOfIdCourses
+            idCourse-1
+            idCourse-2
+
+Syllabuses
+    course[idCourse]
+        syllabus
+
+Users
+    username-password
+

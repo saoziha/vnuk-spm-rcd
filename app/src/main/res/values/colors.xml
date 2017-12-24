@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="Red">#ff0000</color>
+    <color name="Green">#008000</color>
+    <color name="Blue">#0000ff</color>
+    <color name="Cardinal">#ca1c49</color>
+    <color name="Shiraz">#911938</color>
+    <color name="Midnight_Express">#132348</color>
+    <color name="Transparent">#00000000</color>
+    <color name="Transparent80">#80000000</color>
+    <color name="Chathams_Blue">#133F6A</color>
+    <color name="Lochmara">#0881C4</color>
+
+</resources>

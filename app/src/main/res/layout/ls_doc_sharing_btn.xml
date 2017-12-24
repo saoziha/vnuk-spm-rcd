@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/edit_margin_left"
+    android:layout_marginRight="@dimen/edit_margin_right"
+    android:background="@color/White"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/listview_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:gravity="center_horizontal|right">
+
+        <Button
+            android:id="@+id/btn_download"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/edit_margin_left"
+            android:layout_marginRight="@dimen/edit_margin_right"
+            android:background="@drawable/img_icon_download"
+            android:focusable="false" />
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="@dimen/edit_margin_right"
+            android:background="@drawable/img_icon_edit"
+            android:focusable="false" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/img_icon_delete"
+            android:focusable="false" />
+
+    </TableRow>
+
+</LinearLayout>

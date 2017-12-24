@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">vnuklmslogin</string>
+    <string name="hint_std_id">Student ID</string>
+    <string name="hint_pass">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_help">\?</string>
+    <string name="btn_forgot"><u>Forgot password</u></string>
+    <string name="txt_std_info">Thông tin sinh viên</string>
+    <string name="btn_lichhoc">Xem lịch học</string>
+    <string name="btn_diem">Xem điểm</string>
+    <string name="btn_feedback">Feedback</string>
+    <string name="btn_logout">Logout</string>
+    <string name="txt_studyresult">Tổng hợp kết quả học tập \n&amp; rèn luyện đạo đức</string>
+    <string name="txt_ltr_info">Thông tin giảng viên</string>
+    <string name="btn_lichday">Xem lịch giảng dạy</string>
+    <string name="btn_doc_sharing">Chia sẻ tài liệu</string>
+    <string name="btn_doc_view">Xem tài liệu</string>
+    <string name="upload_syllabus">Khung chương trình</string>
+    <string name="upload_lecture_note">Tài liệu bài giảng</string>
+    <string name="btn_ls_lecture">Xem môn học</string>
+    <string name="txt_ls_lecture">Môn học</string>
+    <string name="btn_ls_notices">Xem thông báo</string>
+    <string name="txt_ls_notices">Thông báo</string>
+    <string name="txt_new_notice">Tạo thông báo</string>
+    <string name="txt_notice_title">Tiêu đề:</string>
+    <string name="txt_notice_content">Nội dung:</string>
+    <string name="txt_notice_receiver">Nơi nhận</string>
+    <string name="btn_save">Lưu</string>
+    <string name="btn_discard">Hủy</string>
+    <string name="btn_deadline">Deadline</string>
+    <string name="txt_new_deadline">Tạo deadline</string>
+    <string name="txt_new_deadline_datepicker">Ngày HT:</string>
+    <string name="txt_new_deadline_timepicker">Giờ HT:</string>
+    <string name="new_deadline_time">8:30PM</string>
+    <string name="new_deadline_date">01/01/2017</string>
+
+
+</resources>

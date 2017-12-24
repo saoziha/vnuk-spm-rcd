@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_new_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:text="@string/txt_new_notice"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/text_size_title"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/edt_new_notice_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:layout_marginTop="@dimen/edit_margin_top">
+
+        <TableRow
+            android:id="@+id/new_notice_title"
+            android:layout_marginBottom="@dimen/edit_margin_bottom">
+
+            <TextView
+                android:id="@+id/txt_notice_title"
+                android:text="@string/txt_notice_title"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_size_large" />
+
+            <EditText
+                android:id="@+id/edt_notice_title"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size_large" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/edt_new_notice_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edit_margin_top">
+
+            <TextView
+                android:id="@+id/txt_notice_content"
+                android:text="@string/txt_notice_content"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_size_large" />
+
+            <EditText
+                android:id="@+id/edt_notice_content"
+                android:layout_weight="1"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:textSize="@dimen/text_size_large" />
+        </TableRow>
+    </TableLayout>
+
+    <TableRow
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginTop="@dimen/edit_margin_top">
+
+        <Button
+            android:id="@+id/btn_notice_save"
+            android:layout_marginLeft="@dimen/edit_margin_left"
+            android:layout_marginRight="@dimen/edit_margin_right"
+            android:background="@drawable/button"
+            android:text="@string/btn_save"
+            android:textColor="@color/White"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_notice_discard"
+            android:layout_marginLeft="@dimen/edit_margin_left"
+            android:layout_marginRight="@dimen/edit_margin_right"
+            android:background="@drawable/button"
+            android:text="@string/btn_discard"
+            android:textColor="@color/White"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+    </TableRow>
+
+</LinearLayout>

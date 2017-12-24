@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Phần ni hiển thị ảnh giảng viên -->
+
+    <ImageView
+        android:id="@+id/img_giangvien"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:layout_marginTop="@dimen/edit_margin_top" />
+
+    <!-- Phần ni để hiển thị tên giảng viên -->
+
+    <TextView
+        android:id="@+id/txt_giangvien"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_giangvien"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:textAllCaps="true"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/text_size_title"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ltr_home_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_giangvien"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        android:layout_marginLeft="@dimen/edit_margin_left"
+        android:layout_marginRight="@dimen/edit_margin_right"
+        android:layout_marginTop="@dimen/edit_margin_top"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_ltr_ls_lecture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edit_margin_top"
+            android:background="@color/Cardinal"
+            android:text="@string/btn_ls_lecture"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_ltr_ls_notices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edit_margin_top"
+            android:background="@color/Cardinal"
+            android:text="@string/btn_ls_notices"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_ltr_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edit_margin_top"
+            android:background="@drawable/button"
+            android:text="@string/btn_logout"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
